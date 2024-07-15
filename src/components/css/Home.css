@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-geral-home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: blackdes;
+    z-index: 4;
+}
+
+h1{
+    color: white;
+}
+.box-content-home{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.image-note{
+    width: 100rem;
+    margin-top: -250px;
+    z-index: 2000;
+}
+
+
+@media screen and (max-width: 786px){
+    
+    .image-note{
+        width: 500px !important;
+        margin-top: 10px !important;
+        z-index: 0 !important;
+    }
+}
